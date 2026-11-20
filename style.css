@@ -306,3 +306,142 @@ footer p {
         padding: 20px;
     }
 }
+
+.toggle-description {
+    background-color: #f3f0e6;
+    color: #19543d;
+    border: 1px solid #19543d;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.toggle-description:hover {
+    background-color: #19543d;
+    color: white;
+}
+
+body.dark-mode {
+    background-color: #1e2722;
+    color: #e8e6dc;
+}
+
+body.dark-mode nav {
+    background-color: #2b3831;
+}
+
+body.dark-mode nav a {
+    color: #e8e6dc;
+}
+
+body.dark-mode #menu {
+    background-color: #26332c;
+}
+
+body.dark-mode #menu article {
+    background-color: #35443b;
+}
+
+body.dark-mode #menu article h3 {
+    color: #e8e6dc;
+}
+
+body.dark-mode #menu article p {
+    color: #c5cec6;
+}
+
+body.dark-mode #menu article strong {
+    color: #e8e6dc;
+}
+
+body.dark-mode #menu article a {
+    background-color: #c79532;
+    color: #1e2722;
+}
+
+body.dark-mode #menu article a:hover {
+    background-color: #e0b653;
+    color: #1e2722;
+}
+
+body.dark-mode #contact {
+    background-color: #1e2722;
+}
+
+body.dark-mode #contact-form {
+    background-color: #35443b;
+}
+
+body.dark-mode #contact-form label {
+    color: #e8e6dc;
+}
+
+body.dark-mode #contact > p {
+    color: #c5cec6;
+}
+
+body.dark-mode #contact-form input,
+body.dark-mode #contact-form textarea {
+    background-color: #26332c;
+    color: #e8e6dc;
+    border: 1px solid #64756a;
+}
+
+body.dark-mode #contact-form button {
+    background-color: #c79532;
+    color: #1e2722;
+}
+
+body.dark-mode #contact-form button:hover {
+    background-color: #e0b653;
+    color: #1e2722;
+}
+
+body.dark-mode footer {
+    background-color: #26332c;
+    color: #e8e6dc;
+}
+
+body.dark-mode #date-time {
+    color: #c79532;
+}
+
+body.dark-mode #theme-toggle {
+    background-color: #c79532;
+    color: #1e2722;
+    border: none;
+}
+
+body.dark-mode #theme-toggle:hover {
+    background-color: #e0b653;
+}
+
+body.dark-mode section h2 {
+    color: #e8e6dc;
+}
+
+#theme-toggle {
+    padding: 8px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+body:not(.dark-mode) #theme-toggle {
+    background-color: #194d36;
+    color: white;
+    border: none;
+}
+
+body:not(.dark-mode) #theme-toggle:hover {
+    background-color: #276847;
+}
+
+body.dark-mode #welcome p {
+    color: #c5cec6;
+}
+
