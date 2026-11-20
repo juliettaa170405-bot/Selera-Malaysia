@@ -1,0 +1,129 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Food Ordering</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Selera Malaysia</h1>
+    <p>The true taste of Malaysia, delivered to your door.</p>
+  </header>
+
+  <nav>
+    <a href="#welcome">Welcome</a> |
+    <a href="#menu">Featured Menu</a> |
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="welcome">
+    <h2>Welcome to Selera Malaysia</h2>
+    <p>
+      Thank you for visiting Selera Malaysia. We bring you the best of
+      Malaysian food and drinks, from fragrant Nasi Lemak to frothy Teh Tarik,
+      cooked fresh with authentic local flavours. Browse our featured menu below
+      and place your order in just a few clicks.
+    </p>
+  </section>
+
+  <section id="menu">
+    <h2>Featured Menu</h2>
+
+    <article>
+      <h3>Nasi Lemak</h3>
+      <p><strong>Price:</strong> RM 8.50</p>
+      <p>
+        <strong>Description:</strong>
+        Fragrant coconut rice served with spicy sambal, fried anchovies,
+        roasted peanuts, cucumber and a boiled egg.
+      </p>
+      <img src="images/NasiLemak.jpeg" alt="Nasi Lemak" width="300" height="200">
+      <p><a href="mailto:orders@seleramalaysia.com?subject=Order:%20Nasi%20Lemak">Order Now</a></p>
+    </article>
+
+    <article>
+      <h3>Char Kuey Teow</h3>
+      <p><strong>Price:</strong> RM 10.00</p>
+      <p>
+        <strong>Description:</strong>
+        Flat rice noodles stir-fried over high heat with prawns, egg,
+        bean sprouts and chives in a smoky soy sauce.
+      </p>
+      <img src="images/charkueytiow.jpeg" alt="Char Kuey Teow" width="300" height="200">
+      <p><a href="mailto:orders@seleramalaysia.com?subject=Order:%20Char%20Kuey%20Teow">Order Now</a></p>
+    </article>
+
+    <article>
+      <h3>Chicken Satay</h3>
+      <p><strong>Price:</strong> RM 12.00</p>
+      <p>
+        <strong>Description:</strong>
+        Ten grilled chicken skewers marinated in spices, served with
+        peanut sauce, ketupat, cucumber and onion.
+      </p>
+      <img src="images/satay.jpeg" alt="Chicken Satay" width="300" height="200">
+      <p><a href="mailto:orders@seleramalaysia.com?subject=Order:%20Chicken%20Satay">Order Now</a></p>
+    </article>
+
+    <article>
+      <h3>Roti Canai</h3>
+      <p><strong>Price:</strong> RM 4.00</p>
+      <p>
+        <strong>Description:</strong>
+        Crispy and fluffy flatbread served with dhal and fish curry
+        for dipping.
+      </p>
+      <img src="images/roticanai.jpeg" alt="Roti Canai" width="300" height="200">
+      <p><a href="mailto:orders@seleramalaysia.com?subject=Order:%20Roti%20Canai">Order Now</a></p>
+    </article>
+
+    <article>
+      <h3>Teh Tarik</h3>
+      <p><strong>Price:</strong> RM 3.50</p>
+      <p>
+        <strong>Description:</strong>
+        Malaysia's famous pulled milk tea, poured back and forth to
+        create a smooth and frothy finish.
+      </p>
+      <img src="images/tehtarik.jpeg" alt="Teh Tarik" width="300" height="200">
+      <p><a href="mailto:orders@seleramalaysia.com?subject=Order:%20Teh%20Tarik">Order Now</a></p>
+    </article>
+
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>
+      Have a question or need help with your order? Send us a message using
+      the form below.
+    </p>
+    <form id="contact-form">
+      <p>
+        <label for="name">Name:</label><br>
+        <input id="name" name="name" type="text">
+      </p>
+      <p>
+        <label for="email">Email:</label><br>
+        <input id="email" name="email" type="email">
+      </p>
+      <p>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="5"></textarea>
+      </p>
+      <p>
+        <button type="submit">Submit</button>
+      </p>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Selera Malaysia - Online Food Ordering. All rights reserved.</p>
+    <p id="date-time"></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
